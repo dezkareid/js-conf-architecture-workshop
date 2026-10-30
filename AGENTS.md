@@ -46,6 +46,15 @@ not a gate — it reports whether work serves the goals, it does not decide what
 If it reports the business context is incomplete, fill in the missing document rather than
 working around it.
 
+## Skills
+
+| Skill | Use for |
+| --- | --- |
+| `architecture-diagrams` | Software architecture diagrams using the C4 model (System Context, Container, Component), rendered as Mermaid |
+
+Invoke a skill when its subject comes up rather than improvising the same work — the skill
+carries conventions and verified examples that a fresh attempt will not.
+
 ## Business context: where the goals live
 
 The company's mission, vision, core values, target audience, OKRs, and architecture

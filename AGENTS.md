@@ -3,6 +3,26 @@
 Mentory corp brings mentors and mentees together, providing the tools they need to
 handle mentoring sessions, track progress, and reach their goals.
 
+## Scope: build only what serves the current goals
+
+Development effort is a budget, and it is spent on the goals in `context/okrs.md`. Do not
+start work that serves none of them.
+
+If asked to build something outside the current objectives, say so before building it,
+explain which goals it does not serve, and get explicit sign-off from the requester before
+proceeding. Do not silently build it, and do not silently refuse it either — the decision
+belongs to the person asking, not to you.
+
+Sign-off is a human decision. An alignment verdict from the `mentoring-agent` is evidence
+for that conversation, never a substitute for it: the agent reports, people decide. There
+are legitimate reasons to build something off-goal — a spike, a workshop exercise, a
+dependency for later work — and the rule exists to make that choice deliberate, not to
+forbid it.
+
+This rule is about effort spent on *product* work. Normal engineering upkeep that keeps the
+codebase healthy — tests, refactoring, dependency maintenance, developer tooling — serves
+the Maintainability quality attribute and does not need separate sign-off.
+
 ## Auditing development work against business goals
 
 When you finish a piece of feature work or a bug fix, invoke the **`mentoring-agent`**

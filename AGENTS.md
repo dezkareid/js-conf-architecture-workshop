@@ -28,9 +28,11 @@ working around it.
 
 ## Business context: where the goals live
 
-The authoritative goals are served by the **`business-context`** MCP server, backed by
-markdown in `context/` at the repo root. Consult them through these tools rather than
-relying on recollection, including this file:
+The company's mission, vision, core values, target audience, OKRs, and architecture
+quality attributes are **not duplicated in this file**. They are served by the
+**`business-context`** MCP server, backed by markdown in `context/` at the repo root.
+
+Consult them through these tools:
 
 | Tool | Document | Holds |
 | --- | --- | --- |
@@ -38,31 +40,11 @@ relying on recollection, including this file:
 | `get_okrs` | `context/okrs.md` | Objectives and key results, with targets |
 | `get_quality_attributes` | `context/quality-attributes.md` | Quality attributes and the goals each supports |
 
-`context/company.md` is the single source of truth for company identity. The summary below
-is a convenience copy for human readers; if the two ever disagree, `context/company.md`
-wins and this section should be corrected.
+These documents are the only acceptable source for what the company's goals are. Read them
+through the tools rather than relying on recollection, and never infer an objective,
+metric, or target that is not written there — a fabricated goal produces a confident
+judgement nobody can tell is groundless.
 
-Never infer an objective, metric, or target that is not written in these documents. A
-fabricated goal produces a confident judgement nobody can tell is groundless.
-
-## Mission
-
-Enable the mentees to find mentors to reach their goals.
-
-## Vision
-
-Become the leading platform for mentoring.
-
-## Core Values
-
-- **Security**: We take the security of our user's information very seriously.
-- **Innovation**: We are constantly seeking new ways to improve our platform and services.
-- **Usability**: We believe that our platform should be easy to use and understand.
-- **Customer Service**: We are committed to providing excellent customer service to our users.
-
-## Target Audience
-
-1. Individual users (mentors & mentees)
-2. Small & Medium Businesses (SMBs)
-3. Enterprise clients
-4. Institutional investors
+Keeping the goals in exactly one place is deliberate. A copy here would drift from the
+source, and an agent reading the stale copy while humans read the current one would ground
+its reasoning in goals the company no longer holds, while sounding authoritative.
